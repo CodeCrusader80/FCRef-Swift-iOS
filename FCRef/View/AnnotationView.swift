@@ -21,7 +21,7 @@ class AnnotationView: MKAnnotationView {
     
     func setup() {
         image = getImage()
-        frame.size = CGSize(width: 15, height: 20)
+        frame.size = CGSize(width: 18, height: 20)
         canShowCallout = true
         leftCalloutAccessoryView = UIButton.systemButton(with: UIImage(systemName: "globe")!, target: self, action: #selector(centerMap))
         rightCalloutAccessoryView = UIButton.systemButton(with: UIImage(systemName: "magnifyingglass")!, target: self, action: #selector(toClubDetail))
